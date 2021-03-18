@@ -1,3 +1,7 @@
+#En este juego se trata de que cuando el ususario accione el juego este vea diferentes onjetivos y con su cañon sea capaz
+#de disparar multiples veces a objetivos que apareccen continuamente con un cañon de disparo parabolico, el programa tiene
+#cierta dificultad debido al tamaño de los objetivos y la bala de cañon, ademas de que la velocidad de este complica el juego
+#añadiendo que el proyectil tiene una parabola haciendo imposible el tener un disparo directo
 from random import randrange
 from turtle import *
 from freegames import vector
@@ -18,15 +22,15 @@ def inside(xy):
     "Return True if xy within screen."
     return -200 < xy.x < 200 and -200 < xy.y < 200
 
-def draw():
+def draw(): # Esta funcion es la que nos va sacando las balas y los objetivos del area para que sean visibles
     "Draw ball and targets."
     clear()
 
-    for target in targets:
+    for target in targets:# Aqui procede a representar lo que se elimina ya codeado anteriormente y en esta seccion solo se visualiza el como se veria el objetivo cualquier cambio aqui no tiene un efecto en el funcionamiento de esta.
         goto(target.x, target.y)
-        dot(20, 'blue')
+        dot(20, 'blue') # Este es el cambio del punto objetico de tamaño y su color por lo cual modificando esas cualidades puedes cambiar su tamaño aunque eso no significa que toda su area sea valida
 
-    if inside(ball):
+    if inside(ball): # La bola de cañon se presenta aqui y se trae lo que la bola es capaz de hacer puesto previamente solo que aqui se trabaja el aspecto fisco de la bola
         goto(ball.x, ball.y)
         dot(10, 'red') # Cambio de tamaño y color de la bola de cañon la cual fue cambiada para hacer algo mas grande 
 
@@ -57,9 +61,9 @@ def move():
 
     for target in targets:
         if not inside(target):
-            return
-
-    ontimer(move, 10) # Para cambiar la velocidad del de las bolitas y el cañon del programa hicimos mas pequeño el numero para que aumentara la velocidad a la que estos accionaban
+            target.x = 205
+            
+    ontimer(move, 25) # Para llamar la funcion move este tiempo aumenta la velocidad del programa con un tiempom de 25milisegundos y aumentando esta el programa corre mas rapido o lento dependiendo de lo añadido
 
 setup(420, 420, 370, 0)
 hideturtle()
