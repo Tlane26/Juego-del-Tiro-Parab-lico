@@ -28,7 +28,7 @@ def draw():
 
     if inside(ball):
         goto(ball.x, ball.y)
-        dot(6, 'red')
+        dot(10, 'red') # Cambio de tamaño y color de la bola de cañon la cual fue cambiada para hacer algo mas grande 
 
     update()
 
@@ -59,7 +59,7 @@ def move():
         if not inside(target):
             return
 
-    ontimer(move, 50)
+    ontimer(move, 10) # Para cambiar la velocidad del de las bolitas y el cañon del programa hicimos mas pequeño el numero para que aumentara la velocidad a la que estos accionaban
 
 setup(420, 420, 370, 0)
 hideturtle()
