@@ -13,11 +13,13 @@ Si desea jugar solo tiene que correr el programa. Para realizar alguna modificac
 cada linea y modificar segun la conveniencia.
 
 ## Contribuyentes
-- Tlanetzi Chávez Madero 			
-- Luis Daniel Piña Maldonado
+- **Tlanetzi Chávez Madero **		
+- **Luis Daniel Piña Maldonado**
 
 ## Credits
 ***Videojuego Cannon. Tomado  del  sitio  Grant  Jenks.***
 
 ## Screenshots
 
+Captura de Pantalla 2021-03-18 a la(s) 22.37.43![image](https://user-images.githubusercontent.com/73376432/111736228-a739dd00-883a-11eb-874b-dfcfa6c2934f.png)
+Captura de Pantalla 2021-03-18 a la(s) 22.37.34![image](https://user-images.githubusercontent.com/73376432/111736246-b1f47200-883a-11eb-924f-92d54b0922c7.png)
