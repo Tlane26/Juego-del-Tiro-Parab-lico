@@ -12,6 +12,14 @@ Documentado correctamente el código de acuerdo al estándar del Instituto.
 Si desea jugar solo tiene que correr el programa. Para realizar alguna modificacion deseada puede leer los comentarios de 
 cada linea y modificar segun la conveniencia.
 
+## Librerias
+```python
+
+from random import randrange
+from turtle import *
+from freegames import vector
+```
+
 ## Contribuyentes
 - **Tlanetzi Chávez Madero **		
 - **Luis Daniel Piña Maldonado**
