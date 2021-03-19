@@ -21,7 +21,7 @@ from freegames import vector
 ```
 
 ## Contribuyentes
-- **Tlanetzi Chávez Madero **		
+- **Tlanetzi Chávez Madero**		
 - **Luis Daniel Piña Maldonado**
 
 ## Credits
