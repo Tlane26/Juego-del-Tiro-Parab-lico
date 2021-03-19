@@ -1,6 +1,6 @@
 #Tlanetzi Chávez Madero 			A00830340
-#Luis Daniel Piña Maldonado	            A01284406
-#En este juego se trata de que cuando el ususario accione el juego este vea diferentes onjetivos y con su cañon sea capaz
+#Luis Daniel Piña Maldonado	        A01284406
+#En este juego se trata de que cuando el usuario accione el juego este vea diferentes objetivos y con su cañon sea capaz
 #de disparar multiples veces a objetivos que apareccen continuamente con un cañon de disparo parabolico, el programa tiene
 #cierta dificultad debido al tamaño de los objetivos y la bala de cañon, ademas de que la velocidad de este complica el juego
 #añadiendo que el proyectil tiene una parabola haciendo imposible el tener un disparo directo
