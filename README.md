@@ -21,7 +21,7 @@ cada linea y modificar segun la conveniencia.
 
 ## Screenshots
 
-Ventana de juego!
-[image](https://user-images.githubusercontent.com/73376432/111736228-a739dd00-883a-11eb-874b-dfcfa6c2934f.png)
-Codigo y ventana de juego!
-[image](https://user-images.githubusercontent.com/73376432/111736246-b1f47200-883a-11eb-924f-92d54b0922c7.png)
+Ventana de juego
+![image](https://user-images.githubusercontent.com/73376432/111736228-a739dd00-883a-11eb-874b-dfcfa6c2934f.png)
+Codigo y ventana de juego
+![image](https://user-images.githubusercontent.com/73376432/111736246-b1f47200-883a-11eb-924f-92d54b0922c7.png)
